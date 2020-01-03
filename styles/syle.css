@@ -1,0 +1,403 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+
+li{
+    list-style: none;
+    font-family: arial;
+    
+}
+a{
+    text-decoration: none; 
+    color: gray;
+}
+a:hover{
+    color: white;
+}
+
+.cool-link::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 4px;
+    background: rgb(13, 116, 10);
+    transition: width .3s;
+}
+
+.cool-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+    
+}
+/*--------------------------------------------------- HEADER------------------------------------- */
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height:80px;
+}
+header:hover{
+    box-shadow: black 0px 0px 4px;
+}
+header li{
+    margin-left:20px ;
+    padding-right: 30px;
+    
+}
+header h1{
+    height: 38px;
+    width: 309px;
+    color: white;
+    font-family: arial;
+    margin-left: 30px;
+}
+header nav ul{
+    display: flex;
+}
+
+/*----------------------------------------MAIN----------------------------------------------------*/
+main{
+    position: relative;
+    margin-left: 23px;
+    
+}
+/*-----------------------------------------ABOUT-------------------------------------------------*/
+
+.about{
+    padding-bottom: 40px;
+}
+.about h2{
+    color: gray;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: arial;
+}
+
+
+.profile{
+    margin-left: 40px;
+    border-radius: 50%;
+    border: solid 4px gray;
+    
+}
+
+.info {
+    position: absolute;
+    top: 80px;
+    left: 300px ;
+    font-size: 20px;
+    text-align: justify;
+    font-family: arial;
+    padding-right: 60px;
+}
+.info p{
+    padding-bottom: 15px;
+}
+ .about h2:hover  {
+    color: black;
+    transition: .5s;
+   
+    
+  
+}
+.profile:hover {
+    border: solid 4px rgb(16, 80, 8);
+    transition: .5s;
+
+}
+
+
+.line{
+    width: 3px;
+    height:22px;
+    background: gray;
+    position: absolute;
+    left: 15px;
+    }
+.line:hover{
+width: 4px;
+height:24px;
+background: green;
+
+}
+
+/*------------------------------------------PORTAFOLIO--------------------------------------------------*/
+.portafolio h2{
+    color: gray;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: arial;
+
+}
+
+.portafolio h2:hover  {
+    color: black;
+    transition: .5s;
+ 
+}
+.img1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%; 
+    padding-bottom: 40px;
+}
+.img1 img{
+    border: solid 4px gray;
+}
+.img1 img:hover{
+    border: solid 4px green;
+}
+
+.img2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+.img2 img{
+    border: solid 4px gray;
+}
+.img2 img:hover{
+    border: solid 4px green;
+}
+/*---------------------------------------Habilities------------------------------------------*/
+
+.habilities{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin: 23px;
+}
+.habilities h2{
+    color: gray;
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: arial;
+
+}
+
+.habilities h2:hover  {
+    color: black;
+    transition: .5s;
+ 
+}
+
+.espacio{
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:100px;
+    top :70px;
+}
+.espacio2 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:100px;
+    top :105px;
+}
+.espacio3 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:100px;
+    top :140px;
+}
+.espacio4 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:100px;
+    top :175px;
+}
+.espacio5 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:100px;
+    top :210px;
+}
+.espacio6 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:100px;
+    top :245px;
+}
+.espacio7 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:100px;
+    top :280px;
+}
+.espacio8 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:100px;
+    top :315px;
+}
+.espacio9 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:58%;
+    top :70px;
+}
+.espacio10 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:58%;
+    top :105px;
+}
+.espacio11 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:58%;
+    top :140px;
+}
+.espacio12 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:58%;
+    top :175px;
+}
+.espacio13 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:58%;
+    top :210px;
+}
+.espacio14 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:58%;
+    top :245px;
+}
+.espacio15 {
+    background-color: purple;
+    width: 500px;
+    height: 15px;
+    border-radius: 18px;
+    position: absolute;
+    left:58%;
+    top :282px;
+}
+
+.right {
+    margin-left: 50%;
+    position: absolute;
+    top:70px;
+}
+.habilities h4{
+    padding-bottom: 18px;
+    font-family: arial;
+}
+
+/*--------------------------Contact--------------------------*/
+.contact{
+    margin-left: 23px;
+    height: 700px;
+}
+.contact h2{
+    color: gray;
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: arial;
+
+}
+input[type="text"]{
+    width: 305px;
+    height: 40px;
+    
+    position: relative;
+    left: -60px;
+    top :40px
+}
+input[type="number"]{
+    width: 305px;
+    height: 40px;
+    
+    position: relative;
+    left: -140px;
+    top :40px
+}
+
+input[type="email"]{
+    width: 305px;
+    height: 40px;
+   
+    position: relative;
+    left: -125px;
+    top :40px
+}
+
+input[type="textarea"]{
+    width: 680px;
+    height: 60px;
+   
+    position: relative;
+    left: -135px;
+    top :60px
+}
+
+
+/*--------------------------FOOTER------------------------*/
+
+footer{
+    background-color: black;
+    
+    height: 80px;
+    width: 100%;
+   position: relative;
+}
+
+footer p{color: rgb(255, 255, 255);
+    font-family: arial;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
